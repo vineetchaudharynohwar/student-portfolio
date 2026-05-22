@@ -21,7 +21,7 @@ document.getElementById('studentForm').addEventListener('submit', async (e) => {
 
     try {
         // Backend server ko data bhejna (Running on port 3000)
-        const response = await fetch('http://localhost:3000/api/save-student', {
+        const response = await fetch('https://student-portfolio-0i8f.onrender.com/api/save-student', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
