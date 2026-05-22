@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio & Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-img">
+                <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            <h2>Student Portal</h2>
+            <p>Manage and Save your Academic Profile securely.</p>
+            <div class="features">
+                <div class="feature-item"><i class="fa-solid fa-check-circle"></i> Data of students secured</div>
+                <div class="feature-item"><i class="fa-solid fa-check-circle"></i> Easy to login</div>
+                <div class="feature-item"><i class="fa-solid fa-check-circle"></i> Easy to find student data</div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2><i class="fa-solid fa-id-card"></i> Student Registration Form</h2>
+            <p class="subtitle">Enter all required details to update the student database.</p>
+            
+            <form id="studentForm">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label><i class="fa-solid fa-user"></i> Full Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fa-solid fa-hashtag"></i> Roll Number</label>
+                        <input type="text" id="rollno" placeholder="MCU1024" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fa-solid fa-envelope"></i> Email Address</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fa-solid fa-phone"></i> Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fa-solid fa-user-tie"></i> Father's Name</label>
+                        <input type="text" id="fatherName" placeholder="Father's Full Name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label><i class="fa-solid fa-person-breastfeeding"></i> Mother's Name</label>
+                        <input type="text" id="motherName" placeholder="Mother's Full Name" required>
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label><i class="fa-solid fa-location-dot"></i> Permanent Address</label>
+                    <textarea id="address" rows="3" placeholder="Enter complete address here..." required></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn">
+                    <span id="btnText">Save Student Profile</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

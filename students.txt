@@ -1,0 +1,11 @@
+
+==================================================
+TIMESTAMP     : 21/5/2026, 11:17:18 pm
+ROLL NUMBER   : 73993
+NAME          : vineet
+EMAIL         : vineetchaudharynohwar@gmail.com
+PHONE         : 737839
+FATHER'S NAME : jdbnd
+MOTHER'S NAME : kdhjd
+ADDRESS       : poujpojwepojp
+==================================================
